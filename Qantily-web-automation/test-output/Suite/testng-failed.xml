@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Qantily.NewProjectios">
+        <methods>
+          <include name="change_package"/>
+          <include name="CheckImage"/>
+          <include name="card_details"/>
+          <include name="get_application_name"/>
+          <include name="verify_version"/>
+          <include name="get_successfull_message"/>
+          <include name="search_app"/>
+          <include name="verify_subtotal_on_cart"/>
+          <include name="verify_platform"/>
+          <include name="click_on_continue"/>
+          <include name="get_sub_total_value"/>
+          <include name="submit_payment"/>
+          <include name="choose_package"/>
+          <include name="verify_platform_after_package"/>
+          <include name="verify_add_basic_deatils"/>
+          <include name="provide_build_url"/>
+          <include name="verify_baseprise_after_change_package"/>
+          <include name="checkbox_enabled"/>
+          <include name="get_sub_total_value_after_select_low"/>
+          <include name="get_sub_total_value_after_change_package"/>
+          <include name="verify_baseprise_after_select_low"/>
+          <include name="verify_button"/>
+          <include name="login_before_project"/>
+          <include name="add_new_project"/>
+          <include name="checkbox_Disabled"/>
+          <include name="click_with_continue"/>
+          <include name="verify_baseprise_on_cart"/>
+          <include name="verify_cart_summary"/>
+          <include name="enter_phone_number"/>
+          <include name="verify_version_with_other_app"/>
+          <include name="beforeTest"/>
+          <include name="DriverClosed"/>
+          <include name="get_Link_to_your_app_on_App_store"/>
+          <include name="verify_baseprise_on_cart_after_package"/>
+          <include name="change_package_select_low"/>
+          <include name="use_ios_method"/>
+        </methods>
+      </class> <!-- Qantily.NewProjectios -->
+      <class name="Qantily.Registrationclient">
+        <methods>
+          <include name="enter_name_fields"/>
+          <include name="click_start_testing_now"/>
+          <include name="verify_repeat_field"/>
+          <include name="enter_Website_URL"/>
+          <include name="linkedin_social_logins_on_location"/>
+          <include name="verify_with_valid_email_address"/>
+          <include name="verify_domain_field"/>
+          <include name="google_social_logins_on_details"/>
+          <include name="linkedin_social_logins_on_details"/>
+          <include name="first_checkbox_enabled"/>
+          <include name="google_social_logins_on_location"/>
+          <include name="verify_Number_of_Employees"/>
+          <include name="verify_phone_field"/>
+          <include name="Verify_phone_number_field_with_more_than_10_digits"/>
+          <include name="Verify_phone_number_field_with_less_than_10_digits"/>
+          <include name="register"/>
+          <include name="email_address_field_without_Sign"/>
+          <include name="verify_Website_URL_field"/>
+          <include name="verify_with_valid_phone_number"/>
+          <include name="verify_with_valid_repeat_password"/>
+          <include name="verify_with_invalid_repeat_password"/>
+          <include name="Verify_phone_number_field_with_10_zeros"/>
+          <include name="select_Headquarters"/>
+          <include name="enter_employees_value"/>
+          <include name="third_checkbox_enabled"/>
+          <include name="validation_on_numeric_field_phone_number_by_entering_alphabets_and_special_characters"/>
+          <include name="verify_Headquarters_fields"/>
+          <include name="verify_with_blank_position"/>
+          <include name="Verify_phone_number_field_with_minus_values"/>
+          <include name="verify_with_valid_password"/>
+          <include name="verify_with_valid_position"/>
+          <include name="email_address_field_without_Sign_domain"/>
+          <include name="verify_password_field"/>
+          <include name="verify_specified_fields"/>
+          <include name="verify_email_address_field"/>
+          <include name="beforeTest"/>
+          <include name="second_checkbox_enabled"/>
+          <include name="checkbox_string3"/>
+          <include name="social_logins"/>
+          <include name="checkbox_string1"/>
+          <include name="verify_name_fields"/>
+          <include name="checkbox_string2"/>
+        </methods>
+      </class> <!-- Qantily.Registrationclient -->
+      <class name="Qantily.Registeration">
+        <methods>
+          <include name="verify_with_valid_repeat_password"/>
+          <include name="verify_with_valid_phone_number"/>
+          <include name="Verify_phone_number_field_with_more_than_10_digits"/>
+          <include name="driverclose"/>
+          <include name="register"/>
+          <include name="Verify_phone_number_field_with_less_than_10_digits"/>
+          <include name="first_checkbox_enabled"/>
+          <include name="email_address_field_without_Sign"/>
+          <include name="verify_repeat_field"/>
+          <include name="verify_with_valid_email_address"/>
+          <include name="verify_domain_field"/>
+          <include name="verify_phone_field"/>
+          <include name="verify_state_field"/>
+          <include name="checkbox_string1"/>
+          <include name="verify_city_field"/>
+          <include name="click_start_testing_now"/>
+          <include name="enter_name_fields"/>
+          <include name="email_address_field_without_Sign_domain"/>
+          <include name="verify_password_field"/>
+          <include name="verify_with_valid_domian"/>
+          <include name="social_logins_on_location"/>
+          <include name="verify_name_fields"/>
+          <include name="checkbox_string2"/>
+          <include name="verify_with_blank_domian"/>
+          <include name="checkbox_string3"/>
+          <include name="select_state"/>
+          <include name="select_country"/>
+          <include name="second_checkbox_enabled"/>
+          <include name="verify_specified_fields"/>
+          <include name="beforeTest"/>
+          <include name="verify_email_address_field"/>
+          <include name="social_logins"/>
+          <include name="verify_country_fields"/>
+          <include name="verify_with_valid_password"/>
+          <include name="select_city"/>
+          <include name="Verify_phone_number_field_with_minus_values"/>
+          <include name="social_logins_on_details"/>
+          <include name="verify_with_invalid_repeat_password"/>
+          <include name="third_checkbox_enabled"/>
+          <include name="validation_on_numeric_field_phone_number_by_entering_alphabets_and_special_characters"/>
+          <include name="Verify_phone_number_field_with_10_zeros"/>
+        </methods>
+      </class> <!-- Qantily.Registeration -->
+      <class name="Qantily.NewProject">
+        <methods>
+          <include name="verify_version"/>
+          <include name="verify_version_with_other_app"/>
+          <include name="CheckImage"/>
+          <include name="card_details"/>
+          <include name="get_successfull_message"/>
+          <include name="provide_build_url"/>
+          <include name="submit_payment"/>
+          <include name="checkbox_enabled"/>
+          <include name="checkbox_Disabled"/>
+          <include name="change_package_select_low"/>
+          <include name="DriverClosed"/>
+          <include name="change_package"/>
+          <include name="choose_package"/>
+          <include name="verify_add_basic_deatils"/>
+          <include name="enter_phone_number"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.NewProject -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
