@@ -137,6 +137,7 @@ public class ReportBug {
 	  @AfterTest
 	  public void driverClosed() {
 		  driver.close();
+		  System.out.println("Test is Completed");
 	  }
 	  
 }
